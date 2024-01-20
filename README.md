@@ -1,9 +1,12 @@
 # Playground API
 This is a playground project to solve some infrastructure problems by showing the environment variables and properties that are raised and displayed via REST requests.
 Please use at your discretion as it may expose sensitive information.
+## Clone the project
+```shell
+git clone https://github.com/HernanUrban/playground.git
+```
 
 ## How to run
-
 ### Build
 ```shell
 ./mvnw clean package
