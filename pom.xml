@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.hernanurban</groupId>
 	<artifactId>playground</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>playground</name>
 	<description>This is a playground project to troubleshoot some infrastructure issues</description>
 	<properties>
