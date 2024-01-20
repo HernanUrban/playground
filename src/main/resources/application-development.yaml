@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/tai_test
+    username: root
+    password: skyn3t43v3r
