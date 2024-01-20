@@ -7,23 +7,37 @@ git clone https://github.com/HernanUrban/playground.git
 ```
 
 ## How to run
-### Build
+## Build
 ```shell
 ./mvnw clean package
 ```
-### Run local
+## Build Docker Image
+```shell
+docker build -t hurban/playground .
+```
+
+## Run local or run on Docker
+
+### 1. Run local
 ```shell
 java -jar target/playground-1.0.0.jar 
 ```
-*_You might want to open a new terminal to follow with next step._ 
-## Get the environment variables that the app can see
+*_You might want to open a new terminal to follow with next steps._
+
+### 2. Run from Docker
+```shell
+docker run -d -p 9292:9292 hurban/playground
+```
+
+## Test the app
+### Get the environment variables that the app can see
 ```shell
 curl --location 'http://localhost:9292/api/env' | json_pp
 ```
 
-## Get the properties that the app can see
+### Get the properties that the app can see
 ```shell
 curl --location 'http://localhost:9292/api/properties' | json_pp
 ```
 
-**_Once you've done close the app by running `ctrl+C` in the terminal that is running the app._ 
+**_If run from local, once you've done close the app by running `ctrl+C` in the terminal that is running the app._ 
