@@ -6,12 +6,11 @@ Please use at your discretion as it may expose sensitive information.
 git clone https://github.com/HernanUrban/playground.git
 ```
 
-## How to run
 ## Build
 ```shell
 ./mvnw clean package
 ```
-## Build Docker Image
+## Build Docker Image (optional)
 ```shell
 docker build -t hurban/playground .
 ```
