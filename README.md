@@ -39,4 +39,8 @@ curl --location 'http://localhost:9292/api/env' | json_pp
 curl --location 'http://localhost:9292/api/properties' | json_pp
 ```
 
-**_If run from local, once you've done close the app by running `ctrl+C` in the terminal that is running the app._ 
+
+
+
+
+
